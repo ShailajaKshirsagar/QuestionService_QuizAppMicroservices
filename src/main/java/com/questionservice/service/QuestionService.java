@@ -9,6 +9,7 @@ import java.util.List;
 
 public interface QuestionService
 {
+    //getallwue
     List<Questions> getAllQue();
 
     List<Integer> getRandomQuestions(int noofque, String category);
