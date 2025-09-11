@@ -40,7 +40,7 @@ public class QuestionServiceImpl implements QuestionService
         return questionId;
     }
 
-    //getlistofquestion
+    //getlistofquestion by id
     @Override
     public List<QuizQuestionDto> getListOfQuestionById(List<Integer> queId) {
         List<QuizQuestionDto> list = new ArrayList<>();

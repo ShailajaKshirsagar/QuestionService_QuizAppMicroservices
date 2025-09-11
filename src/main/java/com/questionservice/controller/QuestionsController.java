@@ -34,7 +34,7 @@ public class QuestionsController
         return new ResponseEntity<>(questions,HttpStatus.OK);
     }
 
-    //getquestions by id .
+    //getquestions by id .api
     //use requestparam for getmapping and requestbody for postmapping
     @PostMapping("/getQuestionsByQuestionId")
     public ResponseEntity<List<QuizQuestionDto>> getQuestionByQUeId(@RequestBody List<Integer> queId){
