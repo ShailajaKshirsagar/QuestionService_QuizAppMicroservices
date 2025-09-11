@@ -27,7 +27,7 @@ public class QuestionServiceImpl implements QuestionService
     }
 
 
-    //get random questions
+    //get random questions method
     @Override
     public List<Integer> getRandomQuestions(int noofque, String category) {
 

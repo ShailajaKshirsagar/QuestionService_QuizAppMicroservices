@@ -25,7 +25,7 @@ public class QuestionsController
         return new ResponseEntity<>(questionsList, HttpStatus.OK);
     }
 
-    //get questions
+    //get questions api
     @GetMapping("/getQuestions")
     public ResponseEntity<List<Integer>> getQuestionList(@RequestParam(name = "noofque") int noofque,
                                                          @RequestParam(name = "category")String category){

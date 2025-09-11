@@ -12,6 +12,7 @@ public interface QuestionService
     //getallwue
     List<Questions> getAllQue();
 
+    //get random questions by input
     List<Integer> getRandomQuestions(int noofque, String category);
 
     List<QuizQuestionDto> getListOfQuestionById(List<Integer> queId);
