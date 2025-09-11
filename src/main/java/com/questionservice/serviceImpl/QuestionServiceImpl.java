@@ -52,7 +52,7 @@ public class QuestionServiceImpl implements QuestionService
         return list;
     }
 
-    //get result
+    //get result method
     @Override
     public int getResult(List<Quizrequest> quizrequest) {
 

@@ -18,5 +18,6 @@ public interface QuestionService
     // get list of questions by id
     List<QuizQuestionDto> getListOfQuestionById(List<Integer> queId);
 
+    //get result method
     int getResult(List<Quizrequest> quizrequest);
 }

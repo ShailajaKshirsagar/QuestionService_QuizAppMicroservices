@@ -42,7 +42,7 @@ public class QuestionsController
       return new ResponseEntity<>(questionDtoList,HttpStatus.OK);
     }
 
-    //submit or getresult
+    //submit or getresult api
     @PostMapping("/getResult")
     public ResponseEntity<Integer> getResult(@RequestBody List<Quizrequest> quizrequest){
         int result = questionService.getResult(quizrequest);
